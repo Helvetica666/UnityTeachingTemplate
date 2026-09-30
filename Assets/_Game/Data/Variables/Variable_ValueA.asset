@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variableName: Value_A
   displayName: Value A
-  defaultValue: 50
+  defaultValue: 0
   minValue: 0
   maxValue: 100
-  currentValue: 50
+  currentValue: 20

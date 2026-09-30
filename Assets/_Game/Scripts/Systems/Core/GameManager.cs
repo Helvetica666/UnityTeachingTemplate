@@ -22,12 +22,12 @@ public class GameManager : MonoBehaviour
             feedbackPanel.SetActive(false);
     }
 
-    public void ShowFeedback(string message, float duration = 3f)
+    public void ShowFeedback(string message)
     {
         CancelInvoke(nameof(HideFeedback));
         feedbackPanel.SetActive(true);
         feedbackText.text = message;
-        Invoke(nameof(HideFeedback), duration);
+        Invoke(nameof(HideFeedback), 3);
     }
 
     private void HideFeedback()
